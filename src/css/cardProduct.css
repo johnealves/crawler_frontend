@@ -4,12 +4,24 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.205);
   display: flex;
   margin: 1rem;
-  padding: 15px;
+  padding: 0 15px;
   width: 800px;
 }
 
 .card-product-container div {
   margin: 1rem;
+}
+
+.card-product-container a {
+  align-items: center;
+  background-color: #274E83;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  line-height: 1rem;
+  padding: 0 10px;
+  text-decoration: none;
 }
 
 .card-product-container div:nth-child(2) {
@@ -31,12 +43,13 @@
 }
 
 .image-container {
-  border: 1px solid black;
-  height: 10rem;
+  height: 12rem;
+  margin: 0;
   width: 10rem;
 }
 
 .image-container img {
-  height: 99%;
-  width: 100%;
+  max-height: 99%;
+  max-width: 100%;
 }
+

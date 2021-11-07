@@ -16,9 +16,9 @@ const CardProduct = ({ product }) => {
         <div>
           <h4>{ (Number(product.price))
             .toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) }</h4>
-          <Button component={ Link } to={ product.link } variant="contained" target="blank">
-            ver na pagina
-          </Button>
+          <a href={ product.link } target="blank">
+            Ver na pagina
+          </a>
         </div>
       </div>
     </div>
